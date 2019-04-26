@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9445B05F226EFE2800F7A139 /* CZRefreshStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9445B05E226EFE2800F7A139 /* CZRefreshStatusView.m */; };
+		9445B0A0226F3CEE00F7A139 /* cz_img_default_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 9445B09E226F3CEE00F7A139 /* cz_img_default_error.png */; };
+		9445B0A1226F3CEE00F7A139 /* cz_img_default_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 9445B09F226F3CEE00F7A139 /* cz_img_default_empty.png */; };
+		9445B0A2226F3CF600F7A139 /* cz_img_default_error.png in Sources */ = {isa = PBXBuildFile; fileRef = 9445B09E226F3CEE00F7A139 /* cz_img_default_error.png */; };
+		9445B0A3226F3CF600F7A139 /* cz_img_default_empty.png in Sources */ = {isa = PBXBuildFile; fileRef = 9445B09F226F3CEE00F7A139 /* cz_img_default_empty.png */; };
+		9445B0A5226F3D0C00F7A139 /* CZRefreshViewResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9445B0A4226F3D0C00F7A139 /* CZRefreshViewResource.bundle */; };
+		94628952226E048F006F75AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94628951226E048F006F75AF /* AppDelegate.m */; };
+		94628955226E048F006F75AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94628954226E048F006F75AF /* ViewController.m */; };
+		94628958226E048F006F75AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94628956226E048F006F75AF /* Main.storyboard */; };
+		9462895A226E0492006F75AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94628959226E0492006F75AF /* Assets.xcassets */; };
+		9462895D226E0492006F75AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9462895B226E0492006F75AF /* LaunchScreen.storyboard */; };
+		94628960226E0492006F75AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9462895F226E0492006F75AF /* main.m */; };
+		94628969226EAA56006F75AF /* CZRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94628968226EAA56006F75AF /* CZRefreshView.m */; settings = {COMPILER_FLAGS = "-Wno-undeclared-selector"; }; };
+		94628970226EC3BC006F75AF /* ProjectRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9462896F226EC3BC006F75AF /* ProjectRefreshView.m */; };
+		94628974226EC773006F75AF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94628972226EC773006F75AF /* MainViewController.m */; };
+		94628975226EC773006F75AF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94628973226EC773006F75AF /* MainViewController.xib */; };
+		94628978226EC848006F75AF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94628977226EC848006F75AF /* BaseViewController.m */; };
+		9462897B226EC896006F75AF /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9462897A226EC896006F75AF /* NormalViewController.m */; };
+		E67F4B1C6164A22A8EC2E3DA /* libPods-CZRefreshView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E98E11CA86105B15ACE943A6 /* libPods-CZRefreshView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		339C12C26919559907E36028 /* Pods-CZRefreshView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZRefreshView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZRefreshView/Pods-CZRefreshView.debug.xcconfig"; sourceTree = "<group>"; };
+		9445B05C226EF69200F7A139 /* CZRefreshStatusViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZRefreshStatusViewDelegate.h; sourceTree = "<group>"; };
+		9445B05D226EFE2800F7A139 /* CZRefreshStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZRefreshStatusView.h; sourceTree = "<group>"; };
+		9445B05E226EFE2800F7A139 /* CZRefreshStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZRefreshStatusView.m; sourceTree = "<group>"; };
+		9445B091226F342D00F7A139 /* CZRefreshViewResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZRefreshViewResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9445B093226F342E00F7A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9445B09E226F3CEE00F7A139 /* cz_img_default_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cz_img_default_error.png; sourceTree = "<group>"; };
+		9445B09F226F3CEE00F7A139 /* cz_img_default_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cz_img_default_empty.png; sourceTree = "<group>"; };
+		9445B0A4226F3D0C00F7A139 /* CZRefreshViewResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CZRefreshViewResource.bundle; sourceTree = "<group>"; };
+		9462894D226E048F006F75AF /* CZRefreshView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZRefreshView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94628950226E048F006F75AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94628951226E048F006F75AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94628953226E048F006F75AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94628954226E048F006F75AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94628957226E048F006F75AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94628959226E0492006F75AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9462895C226E0492006F75AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9462895E226E0492006F75AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9462895F226E0492006F75AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94628967226EAA56006F75AF /* CZRefreshView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZRefreshView.h; sourceTree = "<group>"; };
+		94628968226EAA56006F75AF /* CZRefreshView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZRefreshView.m; sourceTree = "<group>"; };
+		9462896E226EC3BC006F75AF /* ProjectRefreshView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectRefreshView.h; sourceTree = "<group>"; };
+		9462896F226EC3BC006F75AF /* ProjectRefreshView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectRefreshView.m; sourceTree = "<group>"; };
+		94628971226EC773006F75AF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		94628972226EC773006F75AF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		94628973226EC773006F75AF /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		94628976226EC848006F75AF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		94628977226EC848006F75AF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		94628979226EC896006F75AF /* NormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		9462897A226EC896006F75AF /* NormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		94ED8828226ED61D004D964A /* CZRefreshViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZRefreshViewDelegate.h; sourceTree = "<group>"; };
+		D2654EB698C194C03975EA2B /* Pods-CZRefreshView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZRefreshView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZRefreshView/Pods-CZRefreshView.release.xcconfig"; sourceTree = "<group>"; };
+		E98E11CA86105B15ACE943A6 /* libPods-CZRefreshView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZRefreshView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9445B08E226F342D00F7A139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9462894A226E048F006F75AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67F4B1C6164A22A8EC2E3DA /* libPods-CZRefreshView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9445B092226F342E00F7A139 /* CZRefreshViewResource */ = {
+			isa = PBXGroup;
+			children = (
+				9445B093226F342E00F7A139 /* Info.plist */,
+			);
+			path = CZRefreshViewResource;
+			sourceTree = "<group>";
+		};
+		9445B09D226F3CEE00F7A139 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9445B09E226F3CEE00F7A139 /* cz_img_default_error.png */,
+				9445B09F226F3CEE00F7A139 /* cz_img_default_empty.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		94628944226E048F006F75AF = {
+			isa = PBXGroup;
+			children = (
+				9462894F226E048F006F75AF /* CZRefreshView */,
+				9445B092226F342E00F7A139 /* CZRefreshViewResource */,
+				9462894E226E048F006F75AF /* Products */,
+				FEBB2B601D53FB80A729BB29 /* Pods */,
+				CBFBA725CF89709BD779DA3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9462894E226E048F006F75AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9462894D226E048F006F75AF /* CZRefreshView.app */,
+				9445B091226F342D00F7A139 /* CZRefreshViewResource.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9462894F226E048F006F75AF /* CZRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				9462896D226EC3AA006F75AF /* demo */,
+				94628966226EAA48006F75AF /* classes */,
+				94628950226E048F006F75AF /* AppDelegate.h */,
+				94628951226E048F006F75AF /* AppDelegate.m */,
+				94628953226E048F006F75AF /* ViewController.h */,
+				94628954226E048F006F75AF /* ViewController.m */,
+				94628956226E048F006F75AF /* Main.storyboard */,
+				94628959226E0492006F75AF /* Assets.xcassets */,
+				9462895B226E0492006F75AF /* LaunchScreen.storyboard */,
+				9462895E226E0492006F75AF /* Info.plist */,
+				9462895F226E0492006F75AF /* main.m */,
+			);
+			path = CZRefreshView;
+			sourceTree = "<group>";
+		};
+		94628966226EAA48006F75AF /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				9445B0A4226F3D0C00F7A139 /* CZRefreshViewResource.bundle */,
+				9445B09D226F3CEE00F7A139 /* images */,
+				94628967226EAA56006F75AF /* CZRefreshView.h */,
+				94628968226EAA56006F75AF /* CZRefreshView.m */,
+				94ED8828226ED61D004D964A /* CZRefreshViewDelegate.h */,
+				9445B05C226EF69200F7A139 /* CZRefreshStatusViewDelegate.h */,
+				9445B05D226EFE2800F7A139 /* CZRefreshStatusView.h */,
+				9445B05E226EFE2800F7A139 /* CZRefreshStatusView.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9462896D226EC3AA006F75AF /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				9462896E226EC3BC006F75AF /* ProjectRefreshView.h */,
+				9462896F226EC3BC006F75AF /* ProjectRefreshView.m */,
+				94628971226EC773006F75AF /* MainViewController.h */,
+				94628972226EC773006F75AF /* MainViewController.m */,
+				94628973226EC773006F75AF /* MainViewController.xib */,
+				94628976226EC848006F75AF /* BaseViewController.h */,
+				94628977226EC848006F75AF /* BaseViewController.m */,
+				94628979226EC896006F75AF /* NormalViewController.h */,
+				9462897A226EC896006F75AF /* NormalViewController.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		CBFBA725CF89709BD779DA3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E98E11CA86105B15ACE943A6 /* libPods-CZRefreshView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEBB2B601D53FB80A729BB29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				339C12C26919559907E36028 /* Pods-CZRefreshView.debug.xcconfig */,
+				D2654EB698C194C03975EA2B /* Pods-CZRefreshView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9445B090226F342D00F7A139 /* CZRefreshViewResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9445B094226F342E00F7A139 /* Build configuration list for PBXNativeTarget "CZRefreshViewResource" */;
+			buildPhases = (
+				9445B08E226F342D00F7A139 /* Frameworks */,
+				9445B08F226F342D00F7A139 /* Resources */,
+				9445B08D226F342D00F7A139 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZRefreshViewResource;
+			productName = CZRefreshViewResource;
+			productReference = 9445B091226F342D00F7A139 /* CZRefreshViewResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9462894C226E048F006F75AF /* CZRefreshView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94628963226E0492006F75AF /* Build configuration list for PBXNativeTarget "CZRefreshView" */;
+			buildPhases = (
+				15579614BDF754DD8A2A2E83 /* [CP] Check Pods Manifest.lock */,
+				94628949226E048F006F75AF /* Sources */,
+				9462894A226E048F006F75AF /* Frameworks */,
+				9462894B226E048F006F75AF /* Resources */,
+				F51DF0622F03F0DDED9911CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZRefreshView;
+			productName = CZRefreshView;
+			productReference = 9462894D226E048F006F75AF /* CZRefreshView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94628945226E048F006F75AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ChenZhe;
+				TargetAttributes = {
+					9445B090226F342D00F7A139 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9462894C226E048F006F75AF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 94628948226E048F006F75AF /* Build configuration list for PBXProject "CZRefreshView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94628944226E048F006F75AF;
+			productRefGroup = 9462894E226E048F006F75AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9462894C226E048F006F75AF /* CZRefreshView */,
+				9445B090226F342D00F7A139 /* CZRefreshViewResource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9445B08F226F342D00F7A139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9462894B226E048F006F75AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9445B0A1226F3CEE00F7A139 /* cz_img_default_empty.png in Resources */,
+				9462895D226E0492006F75AF /* LaunchScreen.storyboard in Resources */,
+				9445B0A5226F3D0C00F7A139 /* CZRefreshViewResource.bundle in Resources */,
+				9445B0A0226F3CEE00F7A139 /* cz_img_default_error.png in Resources */,
+				9462895A226E0492006F75AF /* Assets.xcassets in Resources */,
+				94628958226E048F006F75AF /* Main.storyboard in Resources */,
+				94628975226EC773006F75AF /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15579614BDF754DD8A2A2E83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CZRefreshView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51DF0622F03F0DDED9911CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CZRefreshView/Pods-CZRefreshView-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZRefreshView/Pods-CZRefreshView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9445B08D226F342D00F7A139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9445B0A2226F3CF600F7A139 /* cz_img_default_error.png in Sources */,
+				9445B0A3226F3CF600F7A139 /* cz_img_default_empty.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94628949226E048F006F75AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94628955226E048F006F75AF /* ViewController.m in Sources */,
+				9462897B226EC896006F75AF /* NormalViewController.m in Sources */,
+				9445B05F226EFE2800F7A139 /* CZRefreshStatusView.m in Sources */,
+				94628974226EC773006F75AF /* MainViewController.m in Sources */,
+				94628969226EAA56006F75AF /* CZRefreshView.m in Sources */,
+				94628970226EC3BC006F75AF /* ProjectRefreshView.m in Sources */,
+				94628960226E0492006F75AF /* main.m in Sources */,
+				94628978226EC848006F75AF /* BaseViewController.m in Sources */,
+				94628952226E048F006F75AF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94628956226E048F006F75AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94628957226E048F006F75AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9462895B226E0492006F75AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9462895C226E0492006F75AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9445B095226F342E00F7A139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CZRefreshViewResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meijiayouxiang.CZRefreshViewResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9445B096226F342E00F7A139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = NO;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CZRefreshViewResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meijiayouxiang.CZRefreshViewResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		94628961226E0492006F75AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94628962226E0492006F75AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94628964226E0492006F75AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339C12C26919559907E36028 /* Pods-CZRefreshView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CZRefreshView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.CZRefreshView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94628965226E0492006F75AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2654EB698C194C03975EA2B /* Pods-CZRefreshView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CZRefreshView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.CZRefreshView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9445B094226F342E00F7A139 /* Build configuration list for PBXNativeTarget "CZRefreshViewResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9445B095226F342E00F7A139 /* Debug */,
+				9445B096226F342E00F7A139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94628948226E048F006F75AF /* Build configuration list for PBXProject "CZRefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94628961226E0492006F75AF /* Debug */,
+				94628962226E0492006F75AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94628963226E0492006F75AF /* Build configuration list for PBXNativeTarget "CZRefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94628964226E0492006F75AF /* Debug */,
+				94628965226E0492006F75AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94628945226E048F006F75AF /* Project object */;
+}
