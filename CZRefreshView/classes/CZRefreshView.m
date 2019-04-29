@@ -7,7 +7,7 @@
 //
 
 #import "CZRefreshView.h"
-#import <CZCategory/UIView+CZCategory.h>
+#import <CZCategorys/UIView+CZCategory.h>
 #import <MJRefresh/MJRefresh.h>
 
 @interface CZRefreshView ()
