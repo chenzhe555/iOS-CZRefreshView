@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "CZCategorys", ">= 0.0.1"
+  s.dependency "CZStatusView", ">= 0.0.1"
   s.dependency "MJRefresh", ">= 3.1.16"
 end
